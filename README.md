@@ -18,7 +18,7 @@ Para poder utilizar la aplicación desarrollada con Unity es necesario disponer 
    
 3.  Para descargar la aplicación puede hacerse en modo desarrollador (permite cambios en la aplicación y ver mensajes de control) o en modo usuario (no permite cambios):
 
-     3.1.  Modo usario: Descargar el archivo ROB_VR.exe y ejecutarlo en el dispositivo
+     3.1.  Modo usario: Descargar el contenido de la [carpeta](ROB_VR/) y ejecutar el archivo [ROB_VR.exe](ROB_VR/ROB_VR.exe) en el dispositivo
 
      3.2.  Modo desarrollador: 
 

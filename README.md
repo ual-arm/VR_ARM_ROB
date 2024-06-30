@@ -65,7 +65,7 @@ Para disponer de una celucla robotizada simulada mediante RobotStudio, la cual p
 
 ### Instalación y conexión ABB real
 
-1. Descargar el programa RAPID correspondiente al robot [IRB140]() o [IRB1090]()
+1. Descargar el programa RAPID correspondiente al robot [IRB140](Module_irb140.mod) o [IRB1090](Module_irb1090.modx)
 2. Transmitir el programa RAPID al robot real, mediante un pendrive directo al FlexPendant de este robot o atraves de RobotStudio
 3. Inicializar el programa RAPID desde el FlexPendant
 4. Iniciar la comunicación desde Unity.

@@ -13,8 +13,8 @@ Para obtener mas información acerca de este proyecto se recomienda leer al [mem
 ## Manual instalación
 ### Instalación aplicación Unity
 Para poder utilizar la aplicación desarrollada con Unity es necesario disponer del dispositivo de realidad virtual Oculus Rift S y un ordenador que cumpla los ***requisitos minimos impuestos por Oculus. Para proceder con la insatalación de dicha aplicación:
-1.  Installar y registrarse en UnityHub
-2.  Instalar la ***versión 2022.3.21f1 de Unity Hub
+1.  Installar y registrarse en [UnityHub](https://unity.com/es/download).
+2.  Instalar la [versión 2022.3.21f1](https://unity.com/es/releases/editor/archive) de Unity Hub
    
 3.  Para descargar la aplicación puede hacerse en modo desarrollador (permite cambios en la aplicación y ver mensajes de control) o en modo usuario (no permite cambios):
 
@@ -26,18 +26,18 @@ Para poder utilizar la aplicación desarrollada con Unity es necesario disponer 
 
       - Acceder al direcctorio del proyecto y eliminar el contenido de la carpeta ROB_VR.
 
-      - Descargar ROB_VR_desarrollador
+      - Descargar el contenido de la carpeta [ROB_VR_desarrollador](ROB_VR_desarrollador/).
 
-      - Descomprimir el archivo descargado ROB_VR_desarollador en la carpeta creada ROB_VR.
+      - Copiar los archivos descargados ROB_VR_desarollador en la carpeta creada ROB_VR.
 
       - Ejecuatar el programa desde UnityHub.
 
 ### Instalación y conexión celulas RobotStudio
 Para disponer de una celucla robotizada simulada mediante RobotStudio, la cual permita conectar el robot virtual de Unity con el robot simulado los pasos a seguir son:
 
-1.  Descargar RobotStudio
-2.  Descargar el modelo de celula deseado, IRB140 o IRB1090
-3.  Hacer PackandGo de la celula descarga desde RobotStudio
+1.  Descargar [RobotStudio](https://new.abb.com/products/robotics/es/robotstudio/descargas).
+2.  Descargar el modelo de celula deseado, [IRB140](Irb_140.rspag) o [IRB1090](Irb_1090.rspag)
+3.  Hacer Pack&Go de la celula descarga desde RobotStudio
 4.  Para establecer la conexión entre RobotStudio y Unity pueden darse dos situaciones:
    
       4.1 Unity y RobotStudio en el mismo dispositivo (caso preconfigurado):
@@ -50,9 +50,10 @@ Para disponer de una celucla robotizada simulada mediante RobotStudio, la cual p
 
        - Conectar ambos dispositivos a una misma red wifi o Ethernet
 
-       - En el dispositivo donde esta instalado RobotStudio obtener la dirección IP desde cmd:
+       - En el dispositivo donde esta instalado RobotStudio obtener la dirección IP desde CMD:
 
-        Codigo IP
+        ipconfig
+
 
        - Acceder al codigo RAPID de la celula y al declarar la variable IP establecer como IP la dirección IP obtenida
 
@@ -64,8 +65,8 @@ Para disponer de una celucla robotizada simulada mediante RobotStudio, la cual p
 
 ### Instalación y conexión ABB real
 
-1. Descargar el programa rapid correspondiente al robot IRB140 o IRB1090
-2. Transmitir el programa rapid al robot real, mediante un pendrive directo al FlexPendant de este robot o atraves de RobotStudio
+1. Descargar el programa RAPID correspondiente al robot [IRB140]() o [IRB1090]()
+2. Transmitir el programa RAPID al robot real, mediante un pendrive directo al FlexPendant de este robot o atraves de RobotStudio
 3. Inicializar el programa RAPID desde el FlexPendant
 4. Iniciar la comunicación desde Unity.
 
@@ -78,8 +79,14 @@ Dado que este proyecto no ha desarrollado la interfaz de control del robot SCHUN
    - En el dispositivo del laboratorio: Desde configuración de red establecer la IP en 192.168.1.3
    - En el ordenador con Unity: Desde la configuraciónde red y ajustes avanzados configurar la IP como 192.168.1.2
 3. Abrir la consola del ordenador del laboratorio y ejecutar los comandos:
-4. Aparecerá el panel de control del robot SCHUNK en la pantalla, donde basta con pulsar el boton INICIAR par conectar con el nodo ROS.
-5. Establecer al conexión desde el entorno virtual de Unity.
+
+        cd catkin_ws
+        catkin_make
+        . devel/setup.bash
+        roslaunch schunk_lwa4p robot.launch
+   
+5. Aparecerá el panel de control del robot SCHUNK en la pantalla, donde basta con pulsar el boton INICIAR par conectar con el nodo ROS.
+6. Establecer al conexión desde el entorno virtual de Unity.
 
 
 

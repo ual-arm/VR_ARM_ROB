@@ -1,0 +1,13 @@
+Condicion
+0
+2
+0
+Accion
+Mover a punto
+0
+Accion
+Mover trayectoria
+0
+Accion
+Mover a punto
+2

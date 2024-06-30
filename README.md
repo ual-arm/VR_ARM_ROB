@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Este proyecto genera una aplicación de realidad virtual desarrollada mediante el entorno de programación de Unity, en la cual se puede interacctuar de ditintas formas con los robots IRB140, IRB1090 y SCHUNK LWA 4P programando puntos trayectorias y programas en ellos, los cuales se pueden reproducir en cualquiera de los robots reales. Ademas, al conectar Unity a cualquiera de los robots se dispone de una nueva forma de interacción, la cual consiste en una conexión en directo entre el robot virtual y el robot real, es decir los desplazamientos efectuados sobre el robot virtual en Untiy son efectuados al mismo tiempo sobre el robot real. Para los robots ABB tambien se dispone de una celula de trabajo simulada mediante RbotStudio con la cual se puede establecer conexión y trabajar con ella de igual forma que se haría con el robot real.
 
-Para obtener mas información acerca de este proyecto se recomienda leer al [memoria del TFG](TFG_Antonio_Martinez_Navarro).
+Para obtener mas información acerca de este proyecto se recomienda leer al [memoria del TFG](TFG_Antonio_Martinez_Navarro.pdf).
 
 
   

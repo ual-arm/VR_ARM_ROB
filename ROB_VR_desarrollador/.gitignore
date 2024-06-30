@@ -1,0 +1,49 @@
+﻿# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Visual Studio files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pidb
+*.pidb.meta
+*.pdb
+*.pdb.meta
+*.mdb
+*.eml
+*.ilk
+*.ipdb
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+
+# OS generated files
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Package Manager
+Packages/com.unity.package-manager-ui
+
+# Asset Bundles and StreamingAssets
+Assets/AssetBundles/
+Assets/StreamingAssets/

@@ -92,7 +92,7 @@ Dado que este proyecto no ha desarrollado la interfaz de control del robot SCHUN
 
 ## Codigos de utilidad
 Con el objetivo de facilitar la comprensión de la aplicación de Rv desarrollada en Unity se incluyen los codigos mas representativos de este proyecto, entre los que destacan:
-- Protocolos de comunicación que emplea Unity para los distintos robots, [IRB140](Códigos de interes/IRB140/Comunicación/Comunicacion_irb140.cs), [IRB1090](Códigos de interes/IRB1090/Comunicación/Comunicacion_irb1090.cs) y [SCHUNK](Códigos de interes/SCHUNK/Comunicación/Comunicacion_schunk.cs).
+- Protocolos de comunicación que emplea Unity para los distintos robots, [IRB140](Códigos de interes/IRB140/Comunicación/), [IRB1090](Códigos de interes/IRB1090/Comunicación/Comunicacion_irb1090.cs) y [SCHUNK](Códigos de interes/SCHUNK/Comunicación/Comunicacion_schunk.cs).
 - Codigo para crear, gestionar y desplazar a los puntos deseados, para el [IRB140](), [IRB1090]() y [SCHUNK]().
 - Codigo para crear, gestionar y desplazar a las trayectorias deseadas, para el [IRB140](), [IRB1090]() y [SCHUNK]().
 - Codigo para crear, gestionar y ejecutar los programas elaborados, para el [IRB140](), [IRB1090]() y [SCHUNK]().

@@ -12,7 +12,7 @@ Para obtener más información acerca de este proyecto se recomienda leer al [me
 
 ## Manual instalación
 ### Instalación aplicación Unity
-Para poder utilizar la aplicación desarrollada con Unity es necesario disponer del dispositivo de realidad virtual Oculus Rift S y un ordenador que cumpla los ***requisitos minimos impuestos por Oculus. Para proceder con la insatalación de dicha aplicación:
+Para poder utilizar la aplicación desarrollada con Unity es necesario disponer del dispositivo de realidad virtual Oculus Rift S y un ordenador que cumpla los [requisitos minimos](https://www.meta.com/es-es/help/quest/articles/headsets-and-accessories/oculus-rift-s/rift-s-minimum-requirements/) impuestos por Oculus. Para proceder con la insatalación de dicha aplicación:
 1.  Instalar y registrarse en [UnityHub](https://unity.com/es/download).
 2.  Instalar la [versión 2022.3.21f1](https://unity.com/es/releases/editor/archive) de Unity Hub
    

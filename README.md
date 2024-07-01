@@ -36,7 +36,7 @@ Para poder utilizar la aplicación desarrollada con Unity es necesario disponer 
 &nbsp;&nbsp;&nbsp;&nbsp;Donde se pueden observar las diferentes ventanas de la aplicación las cuales nos permiten navegar por el proyecto, crear relaciones entre sus componentes y modificar cualquier funcionalidad.
 
 ### Instalación y conexión celulas RobotStudio
-Para disponer de una celula robotizada simulada mediante RobotStudio, la cual permita conectar el robot virtual de Unity con el robot simulado los pasos a seguir son:
+&nbsp;&nbsp;&nbsp;&nbsp;Para disponer de una celula robotizada simulada mediante RobotStudio, la cual permita conectar el robot virtual de Unity con el robot simulado los pasos a seguir son:
 
 1.  Descargar [RobotStudio](https://new.abb.com/products/robotics/es/robotstudio/descargas).
 2.  Descargar el modelo de celula deseado, [IRB140](Irb_140.rspag) o [IRB1090](Irb_1090.rspag)
@@ -75,7 +75,7 @@ Para disponer de una celula robotizada simulada mediante RobotStudio, la cual pe
 
 ### Conexión SCHUNK LWA 4P
 
-Dado que este proyecto no ha desarrollado la interfaz de control del robot SCHUNK, no se dispone de la información correspondiente a la descarga y establecimiento del nodo ROS, sino que la comunicación se debe realizar con el ordenador disponible en el laboratorio conectado al robot SCHUNK LWA 4P. Para llevar a cabo dicha conexión los pasos a seguir son:
+&nbsp;&nbsp;&nbsp;&nbsp;Dado que este proyecto no ha desarrollado la interfaz de control del robot SCHUNK, no se dispone de la información correspondiente a la descarga y establecimiento del nodo ROS, sino que la comunicación se debe realizar con el ordenador disponible en el laboratorio conectado al robot SCHUNK LWA 4P. Para llevar a cabo dicha conexión los pasos a seguir son:
 
 1. Conectar el ordenador del laboratorio con el ordenador que contiene Unity mediante un cable Ethernet cruzado.
 2. Congirar la red, para que los dispositivos puedan reconocerse. Para ello:
@@ -94,7 +94,7 @@ Dado que este proyecto no ha desarrollado la interfaz de control del robot SCHUN
 
 
 ## Codigos de utilidad
-Con el objetivo de facilitar la comprensión de la aplicación de Rv desarrollada en Unity se incluyen los codigos mas representativos de este proyecto, entre los que destacan:
+&nbsp;&nbsp;&nbsp;&nbsp;Con el objetivo de facilitar la comprensión de la aplicación de Rv desarrollada en Unity se incluyen los codigos mas representativos de este proyecto, entre los que destacan:
 - Protocolos de comunicación que emplea Unity para los distintos robots, [IRB140](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/IRB140/Comunicaci%C3%B3n/Comunicacion_irb140.cs), [IRB1090](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/IRB1090/Comunicaci%C3%B3n/Comunicacion_irb1090.cs) y [SCHUNK](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/SCHUNK/Comunicaci%C3%B3n/Comunicacion_schunk.cs).
 - Codigo para crear, gestionar y desplazar a los puntos deseados, para el [IRB140](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/IRB140/Programaci%C3%B3n/Control_Drop.cs), [IRB1090](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/IRB1090/Programaci%C3%B3n/Control_Drop_irb1090.cs) y [SCHUNK](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/SCHUNK/Programaci%C3%B3n/Control_Drop_schunk.cs).
 - Codigo para crear, gestionar y desplazar a las trayectorias deseadas, para el [IRB140](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/IRB140/Programaci%C3%B3n/Control_trayectoria.cs), [IRB1090](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/IRB1090/Programaci%C3%B3n/Control_trayectorias_irb1090.cs) y [SCHUNK](https://github.com/ual-arm/VR_ARM_ROB/blob/main/C%C3%B3digos%20de%20interes/SCHUNK/Programaci%C3%B3n/Control_trayectoria_schunk.cs).

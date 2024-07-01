@@ -32,6 +32,11 @@ Para poder utilizar la aplicación desarrollada con Unity es necesario disponer 
 
       - Ejecuatar el programa desde UnityHub.
 
+  Una vez instalada la aplicación ROB_VR y ejecutada mediante Unity el aspecto que debería tener el proyecto en este punto es: ![Disposición Unity](Disposición_Unity.png)
+
+
+  Donde se pueden observar las diferentes ventanas de la aplicación las cuales nos permiten navegar por el proyecto, crear relaciones entre sus componentes y modificar cualquier funcionalidad.
+
 ### Instalación y conexión celulas RobotStudio
 Para disponer de una celula robotizada simulada mediante RobotStudio, la cual permita conectar el robot virtual de Unity con el robot simulado los pasos a seguir son:
 

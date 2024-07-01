@@ -1,19 +1,15 @@
 # VR_ARM_ROB
 
-&nbsp;&nbsp;&nbsp;&nbsp;Este proyecto genera una aplicación de realidad virtual desarrollada mediante el entorno de programación de Unity, en la cual se puede interacctuar de ditintas formas con los robots IRB140, IRB1090 y SCHUNK LWA 4P programando puntos, trayectorias y programas, los cuales se pueden reproducir en cualquiera de los robots reales. Además, al conectar Unity a cualquiera de los robots se dispone de una nueva forma de interacción, la cual consiste en una conexión en directo entre el robot virtual y el robot real, es decir, los desplazamientos efectuados sobre el robot virtual en Untiy son realizados al mismo tiempo sobre el robot real. Para los robots ABB tambien se dispone de una célula de trabajo simulada mediante RobotStudio con la cual, se puede establecer conexión y trabajar con ella de igual forma que se haría con el robot real.
-
-Para obtener más información acerca de este proyecto se recomienda leer al [memoria del TFG](TFG_Antonio_Martinez_Navarro.pdf).
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;Este proyecto genera una aplicación de realidad virtual desarrollada mediante el entorno de programación de [Unity](https://unity.com/es/download), cuyo objetivo se basa en la interacctacción de ditintas formas con los robots IRB140, IRB1090 y SCHUNK LWA 4P programando puntos, trayectorias y programas en un entorno virtual. Se presentan resultados en simulación para los 3 brazos robóticos y la conexíon con el robot real para el modelo de SCHUNK. Además, al conectar Unity a cualquiera de los robots se dispone de una nueva forma de interacción ya que permite la conexión directa entre el robot virtual y real, trasnladando los desplazamientos efectuados sobre el entorno simulado al modelo real. Los robots de ABB disponen de una célula de trabajo simulada mediante RobotStudio donde se realiza la conexión entre plataformas y cobn el robot real. Para el SCHUNK, la simulación se hace en ROS Melodic donde, al igual que con RobotStudio, se ha logrado realizar la conexíon entre máquinas. Para obtener más información acerca de este proyecto se recomienda leer la [memoria del TFG](TFG_Antonio_Martinez_Navarro.pdf).
   
-&nbsp;&nbsp;&nbsp;&nbsp;Este GitHub incorpora tanto los archivos, como un manual de instalación para llevar a cabo la puesta en marcha de Unity, las celulas simuladas y las conexiones con los robots reales ABB y SCHUNK. Además, se incluye una descripción sobre algunos de los códigos más utiles empleados en el desempeño del proyecto.
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;Este GitHub incorpora tanto los archivos, un manual de instalación para llevar a cabo la puesta en marcha de Unity, las celulas simuladas y las conexiones con los robots reales ABB y SCHUNK. Además, se incluye una descripción sobre algunos de los códigos más utiles empleados en el desempeño del proyecto.
 
 ## Manual instalación
 ### Instalación aplicación Unity
 Para poder utilizar la aplicación desarrollada con Unity es necesario disponer del dispositivo de realidad virtual Oculus Rift S y un ordenador que cumpla los [requisitos minimos](https://www.meta.com/es-es/help/quest/articles/headsets-and-accessories/oculus-rift-s/rift-s-minimum-requirements/) impuestos por Oculus. Para proceder con la insatalación de dicha aplicación:
+
 1.  Instalar y registrarse en [UnityHub](https://unity.com/es/download).
+  
 2.  Instalar la [versión 2022.3.21f1](https://unity.com/es/releases/editor/archive) de Unity Hub
    
 3.  Para descargar la aplicación puede hacerse en modo desarrollador (permite cambios en la aplicación y ver mensajes de control) o en modo usuario (no permite cambios):
@@ -32,12 +28,12 @@ Para poder utilizar la aplicación desarrollada con Unity es necesario disponer 
 
       - Ejecuatar el programa desde UnityHub.
 
-  Una vez instalada la aplicación ROB_VR y ejecutada mediante Unity el aspecto que debería tener el proyecto en este punto es: 
+  Una vez instalada la aplicación ROB_VR y ejecutada mediante Unity, debe aparecer el siguiente entorno: 
   
   ![Disposición Unity](Disposición_Unity.png)
 
 
-  Donde se pueden observar las diferentes ventanas de la aplicación las cuales nos permiten navegar por el proyecto, crear relaciones entre sus componentes y modificar cualquier funcionalidad.
+&nbsp;&nbsp;&nbsp;&nbsp;Donde se pueden observar las diferentes ventanas de la aplicación las cuales nos permiten navegar por el proyecto, crear relaciones entre sus componentes y modificar cualquier funcionalidad.
 
 ### Instalación y conexión celulas RobotStudio
 Para disponer de una celula robotizada simulada mediante RobotStudio, la cual permita conectar el robot virtual de Unity con el robot simulado los pasos a seguir son:
